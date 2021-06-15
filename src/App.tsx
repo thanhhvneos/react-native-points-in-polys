@@ -32,7 +32,7 @@ const randomPoint = ({
 }
 
 const getArrPoint = (): Point[] => {
-    const pointA = randomPoint({})
+    const pointA = randomPoint({aaa})
 
     const pointB = randomPoint({
         startX: pointA.x
